@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    
+
+
+
+    <link rel="stylesheet" href="assets/css/variaveis.css">
+
+    <link rel="stylesheet" href="assets/css/elementos.css">
+
+    <link rel="stylesheet" href="assets/css/classes-gerais.css">
+
+    <link rel="stylesheet" href="assets/css/menu.css">
+
+    <link rel="stylesheet" 
+    href="assets/css/styles.css"> 
+
+    
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="close button">
+
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
+
+    <aside class="menu white-bg">
+        <div class="menu-content main-content">
+            <a href="#home">
+                <h1 onclick="getElementById('close-menu').checked = false;">Logo</h1>
+            </a>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#home">Intro</a></li>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#grid-one">Top 3</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#grid-two">Grid 2</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section class="main-bg section" id="home">
+
+        <div class="main-content  intro-content">
+
+            <div class="intro-text-content">
+                <h2>Lorem ipsum dolor sit amet consectetur .       
+                </h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo vero dicta recusandae natus minus repellat debitis reprehenderit beatae aut ex sequi earum, quibusdam provident sapiente, illo excepturi. Alias, consequuntur!</p>
+            </div>
+
+            <div class="intro-img"><img src="assets/img/js-not-optimize.svg" alt="logo"></div>
+
+        </div>  
+
+        
+
+
+    </section>
+
+    <div class="menu-spacing"></div>
+
+    <section class="white-bg section" id="intro">
+        <div class="main-content top3-content">
+            <h2>Top 3 jobs</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+            <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+
+    <div class="menu-spacing"></div>
+
+    <section id="grid-one" class="main-bg section gride-one">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Top 3 jobs</h2>
+            <p class="grid-description">Here are some recent work</p>
+
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                </article>
+
+                <article>
+                    <h3>Second</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.
+
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Third one</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                </article>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="menu-spacing"></div>
+
+    <section id="gallery" class="section white-bg">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">Minhas imagens favoritas</p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r1" alt="Imagem Aleatoria">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r2" alt="Imagem Aleatoria">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r3" alt="Imagem Aleatoria">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r4" alt="Imagem Aleatoria">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r5" alt="Imagem Aleatoria">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r6" alt="Imagem Aleatoria">
+                </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <div class="menu-spacing"></div>
+
+    <section class="main-bg section" id="price">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.</p>
+
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>    
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                            <th>Title 4</th>
+                            <th>Title 5</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5 lor</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                            <td>Content 4</td>
+                            <td>Content 5</td>
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="grid-two" class="white-bg section gride-one">
+
+        <div class="main-content grid-one-content">
+
+            <h2 class="grid-main-heading">Top 3 jobs</h2>
+            <p class="grid-description">Here are some recent work</p>
+
+            <div class="grid">
+                <article>
+                    <h3>First</h3>
+                    <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                </article>
+
+                <article>
+                    <h3>Second</h3>
+                    <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.
+
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Third one</h3>
+                    <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support</p>
+                </article>
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="main-bg section" id="contact">
+
+        <div class="main-content  intro-content">
+
+            <div class="intro-text-content">
+                <h2>Lorem ipsum dolor sit amet consectetur .       
+                </h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nemo vero dicta recusandae natus minus repellat debitis reprehenderit beatae aut ex sequi earum, quibusdam provident sapiente, illo excepturi. Alias, consequuntur!</p>
+            </div>
+
+            <div class="intro-img">
+                <img src="assets/img/js-not-optimize.svg" alt="logo">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Meus contatos</legend>
+
+                    <div class="form-group ">
+                        <label for="first-name">First Name</label>
+                        
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu Nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        
+                        <input type="email" name="email" id="email" placeholder="seu email">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">message</label>
+                        
+                        <textarea  name="message" id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea> 
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Send message</button>
+                    </div>
+
+                </fieldset>
+            </div>
+
+        </div>  
+
+        
+
+
+    </section>
+
+    <footer id="footer" class="footer white-bg" >
+        <p>
+            <a rel="nofollow" href="#" target="_blank">Feito <span class="heart">❤</span> com por Mateus</a>
+        </p>
+    </footer>
+
+
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+</html>
