@@ -54,11 +54,11 @@
 
 
 .grid-main-heading{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .grid-description{
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
 }
 
 .grid h3{
@@ -84,7 +84,7 @@
 .gallery-img{
     width: 100%;
     max-width: 360rem;
-    max-height: 36rem;
+    max-height: 30rem;
     overflow: hidden;
 }
 
